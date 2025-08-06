@@ -12,8 +12,17 @@ lista.textContent = linguagens[1];
 lista.textContent = linguagens[2];
 
 let aluno1 = {
-nome:'Emilin',
+nome:'Luana',
 idade:18,
-anoLetivo:3ºensino médio',
-materiasFavoritas:['educação fisica']
+anoLetivo:'3ºensino médio',
+materiasFavoritas:['Arte']
+}
+console.log(aluno1.Luana);
+console.log(aluno1.18);
+console.log(aluno1.);
+console.log(aluno1.);
 
+const objeto=document.querySelector('#aluno');
+objeto.textContent=aluno1.nome;
+console.log(aluno1.materialFavpritas);
+console.log(aluno1.materiasFavoritas[1]);
