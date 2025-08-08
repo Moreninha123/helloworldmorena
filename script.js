@@ -1,4 +1,4 @@
-unction inserirNome(){
+function inserirNome(){
 let nomeUsuario = prompt("Qual o seu nome");
    let elemento = document.querySelector("#nome-usuario");
    console.log(elemento);
@@ -17,10 +17,10 @@ idade:18,
 anoLetivo:'3ºensino médio',
 materiasFavoritas:['Arte']
 }
-console.log(aluno1.Luana);
-console.log(aluno1.18);
-console.log(aluno1.);
-console.log(aluno1.);
+console.log(aluno1.nome);
+console.log(aluno1.idade);
+console.log(aluno1.materiasFavoritas);
+console.log(aluno1.materiasFavoritas[1]);
 
 const objeto=document.querySelector('#aluno');
 objeto.textContent=aluno1.nome;
